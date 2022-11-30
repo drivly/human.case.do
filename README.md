@@ -1,27 +1,27 @@
-# Templates.do - Worker Templates API 
+# Human.Case.do - Human Case Keys Transformation API 
 
-Explore the API at: <https://templates.do/api>
+Explore the API at: <https://human.case.do/api>
 
 ```json
 {
   "api": {
     "icon": "🚀",
-    "name": "templates.do",
-    "description": "Cloudflare Worker Template",
-    "url": "https://templates.do/api",
-    "type": "https://apis.do/templates",
+    "name": "human.case.do",
+    "description": "Human Case Keys Transformation API",
+    "url": "https://human.case.do/api",
+    "type": "https://apis.do/data",
     "endpoints": {
-      "listCategories": "https://templates.do/api",
-      "getCategory": "https://templates.do/:type"
+      "listCategories": "https://human.case.do/api",
+      "getCategory": "https://human.case.do/:type"
     },
-    "site": "https://templates.do",
-    "login": "https://templates.do/login",
-    "signup": "https://templates.do/signup",
-    "subscribe": "https://templates.do/subscribe",
-    "repo": "https://github.com/drivly/templates.do"
+    "site": "https://human.case.do",
+    "login": "https://human.case.do/login",
+    "signup": "https://human.case.do/signup",
+    "subscribe": "https://human.case.do/subscribe",
+    "repo": "https://github.com/drivly/human.case.do"
   }
   "examples": {
-    "listItems": "https://templates.do/worker"
+    "listItems": "https://human.case.do/worker"
   }
 }
 ```
